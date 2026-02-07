@@ -22,7 +22,7 @@ export function createAboutDialog(versionNumber) {
   );
 
   const websiteURL = 'https://amphi.ai';
-  const githubURL = 'https://github.com/amphi-ai/amphi-etl';
+  const githubURL = 'https://github.com/amphi-ai/data_dash_ETL';
 
   const externalLinks = (
     <span className="jp-About-externalLinks">

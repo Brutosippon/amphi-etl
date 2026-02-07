@@ -1,5 +1,5 @@
 {
-    "name": "@amphi/amphi-etl",
+    "name": "@amphi/data_dash_ETL",
     "version": "0.8.30",
     "keywords": [
         "amphi",
@@ -11,7 +11,7 @@
     ],
     "homepage": "https://amphi.ai",
     "bugs": {
-        "url": "https://github.com/amphi-ai/amphi-etl/issues"
+        "url": "https://github.com/amphi-ai/data_dash_ETL/issues"
     },
     "license": "Elastic License 2.0",
     "author": {
@@ -20,7 +20,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/amphi-ai/amphi-etl.git"
+        "url": "https://github.com/amphi-ai/data_dash_ETL.git"
     },
     "workspaces": {
         "packages": [
