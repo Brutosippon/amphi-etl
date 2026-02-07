@@ -19,12 +19,12 @@ git -v
 ## 👷 The full dev workflow 👷
 
 1. Using your web browser, go to Amphi ETL GitHub page
-https://github.com/amphi-ai/data_dash_ETL
+https://github.com/amphi-ai/amphi-etl
 
 2. On the top right, click on "fork/+create a new fork". It's a necessary step since you don't have the permissions to write directly in the Amphi ETL GitHub repo.
 
 3. On your own account, you must see an amphi repository.
-e.g. : https://github.com/{your_github_username}/data_dash_ETL
+e.g. : https://github.com/{your_github_username}/amphi-etl
 
 4. Now, let's copy the repository on your machine
 Go to the repository where you want to store the repository and using your cmd :
@@ -32,16 +32,16 @@ Go to the repository where you want to store the repository and using your cmd :
 cd C:\Users\{yourusername}\amphi_dev
 ```
 
-The action of copying the repository is called "cloning". On your Amphi ETL GitHub Repository, on top right, click "Code", "local" and copy the adress (https://github.com/{your_github_username}/data_dash_ETL.git ). The clone command is 
+The action of copying the repository is called "cloning". On your Amphi ETL GitHub Repository, on top right, click "Code", "local" and copy the adress (https://github.com/{your_github_username}/amphi-etl.git ). The clone command is 
 ```bash
-git clone https://github.com/{your_github_username}/data_dash_ETL.git
+git clone https://github.com/{your_github_username}/amphi-etl.git
 ```
 
 Check that the repository is created on your machine.
 
-Go to the data_dash_ETL repo on your machine :
+Go to the amphi-etl repo on your machine :
 ```bash
-cd data_dash_ETL
+cd amphi-etl
 ```
 
 Check the git status
@@ -52,7 +52,7 @@ git status
 5. Do your modifications and build the projet following BUILDING.md
 
 6. Once the project is built and you're good, you will have to commit (i.e. validate your change in the Git meaning).
-go the top of folder (id data_dash_ETL, not data_dash_ETL-data_dash_ETL with the cd command)
+go the top of folder (id amphi-etl, not amphi-etl-amphi-etl with the cd command)
 For that use the command (m is for the message)
 ```bash
 git commit -m "Comment on your commit"
@@ -85,7 +85,7 @@ At this step, you have validated your modifications on your repository.
 git push
 ```
 
-8. Using your web browser, go to https://github.com/{your_github_username}/data_dash_ETL
+8. Using your web browser, go to https://github.com/{your_github_username}/amphi-etl
 You must see the changes
 
 9. On the top right, click on Contribute, Open Pull request.

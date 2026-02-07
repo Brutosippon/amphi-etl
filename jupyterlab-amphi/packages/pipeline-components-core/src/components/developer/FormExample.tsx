@@ -19,7 +19,7 @@ export class FormExample extends BaseCoreComponent {
         // Form fields are displayed sequentially.
         // Each form has a type, label, tooltip, and additional properties.
         // Available form types are defined in:
-        // data_dash_ETL\jupyterlab-amphi\packages\pipeline-components-manager\src\forms
+        // amphi-etl\jupyterlab-amphi\packages\pipeline-components-manager\src\forms
         // For this example, id sometimes mention the  type of the component. Do not do that in real life, use a functional name.
         // Informational sections
         {
@@ -396,7 +396,7 @@ WHERE TABLE_NAME = '{{table}}' AND TABLE_SCHEMA = 'dbo';
     const description = "Form examples";
     
     // Super constructor call with necessary parameters
-    // 1. Do not forget to add the icon in data_dash_ETL\jupyterlab-amphi\packages\pipeline-components-core\src\icons.ts and in data_dash_ETL\jupyterlab-amphi\packages\pipeline-components-core\style\icons.
+    // 1. Do not forget to add the icon in amphi-etl\jupyterlab-amphi\packages\pipeline-components-core\src\icons.ts and in amphi-etl\jupyterlab-amphi\packages\pipeline-components-core\style\icons.
     super("Form Example", "form_example", description, "pandas_df_processor", [], "developer", typescriptIcon, defaultConfig, form);
   }
   // List of additional Python packages required (if any)

@@ -3,7 +3,7 @@ requires = ["hatchling>=1.5.0", "jupyterlab>=4.0.0,<5", "hatch-nodejs-version>=0
 build-backend = "hatchling.build"
 
 [project]
-name = "data_dash_ETL"
+name = "amphi-etl"
 description="Amphi is a low-code and python-based data manipulation tool"
 readme = "README.md"
 license = { file = "LICENSE" }

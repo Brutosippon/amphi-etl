@@ -181,7 +181,7 @@ export class Launcher extends JupyterlabLauncher {
               <p>
                 Welcome to Amphi's demo playground! Explore Amphi ETL's capabilities and user experience here. <br />
                 Note that <b>executing pipelines is not supported in this environment.</b> For full functionality, install Amphi — it's free and open source.{' '}
-                <a href="https://github.com/amphi-ai/data_dash_ETL" target="_blank">
+                <a href="https://github.com/amphi-ai/amphi-etl" target="_blank">
                   Learn more.
                 </a>
               </p>
@@ -241,7 +241,7 @@ export class Launcher extends JupyterlabLauncher {
                   </a>
                 </li>
                 <li>
-                  <a href="https://github.com/amphi-ai/data_dash_ETL" target="_blank" className="launcher-card-item">
+                  <a href="https://github.com/amphi-ai/amphi-etl" target="_blank" className="launcher-card-item">
                     <div className="launcher-icon">
                       <githubIcon.react />
                     </div>

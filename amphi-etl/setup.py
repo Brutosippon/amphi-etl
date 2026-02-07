@@ -22,7 +22,7 @@ data_files = (
 )
 
 setup(
-    name='data_dash_ETL',
+    name='amphi-etl',
     version='0.8.30',
     description='Open-source and Python-based ETL',
     author='Thibaut Gourdel',
