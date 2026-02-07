@@ -10,8 +10,8 @@
         {
           "test": "/(?<!\\.raw)\\.css$/",
           "use": [
-            "/Users/thibaut/Documents/amphi-etl-git/amphi-etl/amphi-etl/node_modules/style-loader/dist/cjs.js",
-            "/Users/thibaut/Documents/amphi-etl-git/amphi-etl/amphi-etl/node_modules/css-loader/dist/cjs.js"
+            "/Users/thibaut/Documents/data_dash_ETL-git/data_dash_ETL/data_dash_ETL/node_modules/style-loader/dist/cjs.js",
+            "/Users/thibaut/Documents/data_dash_ETL-git/data_dash_ETL/data_dash_ETL/node_modules/css-loader/dist/cjs.js"
           ]
         },
         {
@@ -81,7 +81,7 @@
           "test": "/\\.js$/",
           "enforce": "pre",
           "use": [
-            "/Users/thibaut/Documents/amphi-etl-git/amphi-etl/amphi-etl/node_modules/source-map-loader/dist/cjs.js"
+            "/Users/thibaut/Documents/data_dash_ETL-git/data_dash_ETL/data_dash_ETL/node_modules/source-map-loader/dist/cjs.js"
           ]
         }
       ]
@@ -91,8 +91,8 @@
         "url": false,
         "buffer": false,
         "crypto": false,
-        "path": "/Users/thibaut/Documents/amphi-etl-git/amphi-etl/amphi-etl/node_modules/path-browserify/index.js",
-        "process": "/Users/thibaut/Documents/amphi-etl-git/amphi-etl/amphi-etl/node_modules/process/browser.js"
+        "path": "/Users/thibaut/Documents/data_dash_ETL-git/data_dash_ETL/data_dash_ETL/node_modules/path-browserify/index.js",
+        "process": "/Users/thibaut/Documents/data_dash_ETL-git/data_dash_ETL/data_dash_ETL/node_modules/process/browser.js"
       }
     },
     "watchOptions": {
@@ -102,7 +102,7 @@
     "output": {
       "hashFunction": "sha256",
       "filename": "[name].[contenthash].js",
-      "path": "/Users/thibaut/Documents/amphi-etl-git/amphi-etl/amphi-etl/amphi/pipeline-scheduler/static",
+      "path": "/Users/thibaut/Documents/data_dash_ETL-git/data_dash_ETL/data_dash_ETL/amphi/pipeline-scheduler/static",
       "publicPath": "auto"
     },
     "plugins": [
@@ -123,9 +123,9 @@
           },
           "filename": "remoteEntry.[contenthash].js",
           "exposes": {
-            "./index": "/Users/thibaut/Documents/amphi-etl-git/amphi-etl/amphi-etl/packages/pipeline-scheduler/lib/index.js",
-            "./extension": "/Users/thibaut/Documents/amphi-etl-git/amphi-etl/amphi-etl/packages/pipeline-scheduler/lib/index.js",
-            "./style": "/Users/thibaut/Documents/amphi-etl-git/amphi-etl/amphi-etl/packages/pipeline-scheduler/style/index.js"
+            "./index": "/Users/thibaut/Documents/data_dash_ETL-git/data_dash_ETL/data_dash_ETL/packages/pipeline-scheduler/lib/index.js",
+            "./extension": "/Users/thibaut/Documents/data_dash_ETL-git/data_dash_ETL/data_dash_ETL/packages/pipeline-scheduler/lib/index.js",
+            "./style": "/Users/thibaut/Documents/data_dash_ETL-git/data_dash_ETL/data_dash_ETL/packages/pipeline-scheduler/style/index.js"
           },
           "shared": {
             "@jupyterlab/application": {
@@ -708,7 +708,7 @@
             "@amphi/pipeline-scheduler": {
               "version": "0.8.20",
               "singleton": true,
-              "import": "/Users/thibaut/Documents/amphi-etl-git/amphi-etl/amphi-etl/packages/pipeline-scheduler/lib/index.js"
+              "import": "/Users/thibaut/Documents/data_dash_ETL-git/data_dash_ETL/data_dash_ETL/packages/pipeline-scheduler/lib/index.js"
             }
           }
         }

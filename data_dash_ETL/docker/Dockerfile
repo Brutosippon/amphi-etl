@@ -32,7 +32,7 @@ USER ${NB_UID}
 # Do all this in a single RUN command to avoid duplicating all of the
 # files across image layers when the permissions change
 WORKDIR /tmp
-RUN pip install amphi-etl
+RUN pip install data_dash_ETL
 
 ENV JUPYTER_PORT=8888
 EXPOSE $JUPYTER_PORT
