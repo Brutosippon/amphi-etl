@@ -14,7 +14,7 @@ const extension: JupyterFrontEndPlugin<void> = {
   requires: [IThemeManager],
   autoStart: true,
   activate: (app: JupyterFrontEnd, manager: IThemeManager) => {
-    const style = '@amphi/theme-light/index.css';
+    const style = '@amphi/theme-light/themes/@amphi/theme-light/index.css';
 
     manager.register({
       name: 'Amphi Light',
